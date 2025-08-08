@@ -1,0 +1,15 @@
+name: nestedints
+description: "Reproducing integer serialization bug."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cloud_functions: ^6.0.0
+

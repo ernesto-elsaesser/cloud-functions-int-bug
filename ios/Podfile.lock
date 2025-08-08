@@ -1,0 +1,90 @@
+PODS:
+  - cloud_functions (6.0.0):
+    - Firebase/Functions (= 12.0.0)
+    - firebase_core
+    - Flutter
+  - Firebase/CoreOnly (12.0.0):
+    - FirebaseCore (~> 12.0.0)
+  - Firebase/Functions (12.0.0):
+    - Firebase/CoreOnly
+    - FirebaseFunctions (~> 12.0.0)
+  - firebase_core (4.0.0):
+    - Firebase/CoreOnly (= 12.0.0)
+    - Flutter
+  - FirebaseAppCheckInterop (12.0.0)
+  - FirebaseAuthInterop (12.0.0)
+  - FirebaseCore (12.0.0):
+    - FirebaseCoreInternal (~> 12.0.0)
+    - GoogleUtilities/Environment (~> 8.1)
+    - GoogleUtilities/Logger (~> 8.1)
+  - FirebaseCoreExtension (12.0.0):
+    - FirebaseCore (~> 12.0.0)
+  - FirebaseCoreInternal (12.0.0):
+    - "GoogleUtilities/NSData+zlib (~> 8.1)"
+  - FirebaseFunctions (12.0.0):
+    - FirebaseAppCheckInterop (~> 12.0.0)
+    - FirebaseAuthInterop (~> 12.0.0)
+    - FirebaseCore (~> 12.0.0)
+    - FirebaseCoreExtension (~> 12.0.0)
+    - FirebaseMessagingInterop (~> 12.0.0)
+    - FirebaseSharedSwift (~> 12.0.0)
+    - GTMSessionFetcher/Core (< 6.0, >= 3.4)
+  - FirebaseMessagingInterop (12.0.0)
+  - FirebaseSharedSwift (12.0.0)
+  - Flutter (1.0.0)
+  - GoogleUtilities/Environment (8.1.0):
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Logger (8.1.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - "GoogleUtilities/NSData+zlib (8.1.0)":
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (8.1.0)
+  - GTMSessionFetcher/Core (5.0.0)
+
+DEPENDENCIES:
+  - cloud_functions (from `.symlinks/plugins/cloud_functions/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - Firebase
+    - FirebaseAppCheckInterop
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreExtension
+    - FirebaseCoreInternal
+    - FirebaseFunctions
+    - FirebaseMessagingInterop
+    - FirebaseSharedSwift
+    - GoogleUtilities
+    - GTMSessionFetcher
+
+EXTERNAL SOURCES:
+  cloud_functions:
+    :path: ".symlinks/plugins/cloud_functions/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  cloud_functions: d7f10f8524d09841004c30ea10854ba89dd96395
+  Firebase: 800d487043c0557d9faed71477a38d9aafb08a41
+  firebase_core: c70f903d70ec229c08c2f49aba5a8c1338546d40
+  FirebaseAppCheckInterop: c848d06a04030c9858ef0ae555b82035dbe470d0
+  FirebaseAuthInterop: 002da671896af5e8879ae117dc604ed240b86e80
+  FirebaseCore: 055f4ab117d5964158c833f3d5e7ec6d91648d4a
+  FirebaseCoreExtension: 639afb3de6abd611952be78a794c54a47fa0f361
+  FirebaseCoreInternal: dedc28e569a4be85f38f3d6af1070a2e12018d55
+  FirebaseFunctions: a5d47653ed6262ba76d215e3097f105dcabc652c
+  FirebaseMessagingInterop: 30024b4793b4876fa1e104e42949eb0273257e38
+  FirebaseSharedSwift: 59266c22ccfcef604d725c034c568fa666ea9bda
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  GoogleUtilities: 00c88b9a86066ef77f0da2fab05f65d7768ed8e1
+  GTMSessionFetcher: 02d6e866e90bc236f48a703a041dfe43e6221a29
+
+PODFILE CHECKSUM: 4305caec6b40dde0ae97be1573c53de1882a07e5
+
+COCOAPODS: 1.16.2
